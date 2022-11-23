@@ -1,7 +1,7 @@
-import { applyMiddleware, configureStore } from '@reduxjs/toolkit';
+import { applyMiddleware, legacy_createStore as createStore } from 'redux';
 import thunk from 'redux-thunk';
 import reducer from './covidData/countriesCovidData';
 
-const store = configureStore(reducer, applyMiddleware(thunk));
+const store = createStore(reducer, applyMiddleware(thunk));
 
 export default store;
