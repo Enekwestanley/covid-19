@@ -5,9 +5,10 @@
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Covid-19-metrics webapp</b></h3>
+  <h3><b>Microverse README Template</b></h3>
 
 </div>
+
 
 <!-- TABLE OF CONTENTS -->
 
@@ -172,7 +173,7 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-  ![Design Inspiration](https://www.behance.net/sakwadesignstudio)
+ > Design Inspiration: [Nelson Sakwa](https://www.behance.net/sakwadesignstudio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
