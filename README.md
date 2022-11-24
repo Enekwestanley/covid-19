@@ -9,34 +9,32 @@
 
 </div>
 
-
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 Space Travelers Hub <a name="about-project"></a>](#covid-19-metrics-webapp-)
-  - [🛠 Built With <a name="built-with"></a>](#-built-with-)
-    - [Tech Stack <a name="tech-stack"></a>](#tech-stack-)
-    - [Key Features <a name="key-features"></a>](#key-features-)
-  - [🚀 Live Demo <a name="live-demo"></a>](#-live-demo-)
-  - [💻 Getting Started <a name="getting-started"></a>](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Usage](#usage)
-    - [Run tests](#run-tests)
-  - [👥 Authors <a name="authors"></a>](#-authors-)
-  - [🔭 Future Features <a name="future-features"></a>](#-future-features-)
-  - [🤝 Contributing <a name="contributing"></a>](#-contributing-)
-  - [⭐️ Show your support <a name="support"></a>](#️-show-your-support-)
-  - [🙏 Acknowledgments <a name="acknowledgements"></a>](#-acknowledgments-)
-  - [📝 License <a name="license"></a>](#-license-)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 covid-19 metrics webapp <a name="about-project"></a>
 
->
+> Describe your project in 1 or 2 sentences.
 
 **This web app was created using React and Redux. It is used to track the Covid-19 metrics update for the Top 20 African countries in view.**
 ## 🛠 Built With <a name="built-with"></a>
@@ -63,7 +61,6 @@
   </ul>
 </details>
 
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
@@ -74,7 +71,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
