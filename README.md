@@ -1,12 +1,11 @@
 <a name="readme-top"></a>
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 <div align="center">
 
-  <img src="src/assests/logo.png" alt="logo" width="140"  height="auto" />
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Space Travelers Hub</b></h3>
+  <h3><b>Covid-19-metrics webapp</b></h3>
 
 </div>
 
@@ -34,7 +33,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Space Travelers Hub <a name="about-project"></a>
+# 📖 covid-19 metrics webapp <a name="about-project"></a>
 
 >
 
@@ -45,8 +44,6 @@
 - Linters
 - GitFlow
 - Redux
-  
-<img src="src/assests/mock.png" alt="logo"   height="auto" />
 
 </br>
 
@@ -78,13 +75,13 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Deployment <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
 
 - [Live Demo Link](https://covid-19-webb-app.netlify.app/)
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Video Presentation <a name="live-demo"></a>
 
 
 - [Live Demo Link](https://www.loom.com/share/1a25120c521241829f0fd1f35d22d950)
@@ -175,7 +172,7 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-  ![](https://img.shields.io/badge/Microverse-blueviolet)
+  ![Design Inspiration](https://www.behance.net/sakwadesignstudio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
