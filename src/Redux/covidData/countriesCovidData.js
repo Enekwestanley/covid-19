@@ -1,5 +1,3 @@
-import axios from 'axios';
-
 const FETCH_REQUEST = 'FETCH_REQUEST';
 const FETCH_SUCCESS = 'FETCH_SUCCESS';
 const FETCH_FAILURE = 'FETCH_FAILURE';
@@ -9,9 +7,10 @@ export const fetchCountriesData = () => async (dispatch) => {
     type: FETCH_REQUEST,
   });
   try {
-    const covidApi = await axios.get('https://api.covid19api.com/summary');
-    const countries = covidApi.data.Countries;
     const africanCountries = ['Nigeria', 'Ghana', 'Ethiopia', 'Kenya', 'Senegal', 'Cameroon', 'Rwanda', 'Chad', 'Gambia', 'Burundi', 'Sierra Leone', 'Zimbabwe', 'South Africa', 'Morocco', 'Tunisia', 'Zambia', 'Egypt', 'Algeria', 'Uganda', 'Namibia'];
+    const data = await fetch('https://api.covid19api.com/summary');
+    const dataJson = await data.json();
+    const countries = dataJson.Countries;
     const payload = [];
     for (let i = 0; i < countries.length; i += 1) {
       if (africanCountries.indexOf(countries[i].Country) !== -1) {

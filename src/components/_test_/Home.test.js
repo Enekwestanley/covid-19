@@ -1,19 +1,14 @@
 import React from 'react';
+import '@testing-library/jest-dom';
 import { Provider } from 'react-redux';
 import { render, screen } from '@testing-library/react';
-import { HashRouter } from 'react-router-dom';
-import Details from '../details/Details';
 import store from '../../Redux/configureStore';
-import '@testing-library/jest-dom';
-
-jest.mock('../../Redux/covidData/countriesCovidData.js');
+import HomePage from '../home/Home';
 
 it('it works', () => {
   const tree = render(
     <Provider store={store}>
-      <HashRouter>
-        <Details />
-      </HashRouter>
+      <HomePage />
     </Provider>,
   );
   expect(tree).toMatchSnapshot();
@@ -22,9 +17,7 @@ it('it works', () => {
 it('renders correctly', () => {
   render(
     <Provider store={store}>
-      <HashRouter>
-        <Details />
-      </HashRouter>
+      <HomePage />
     </Provider>,
   );
   expect(screen.getByText('***Loading***')).toBeInTheDocument();
