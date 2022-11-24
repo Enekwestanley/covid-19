@@ -1,168 +1,167 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: lato, sans-serif;
-  }
-  
-  #root {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 3rem;
-    background-image: url('./components/img/africa5.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    overflow-x: hidden;
-  }
-  
-  .nav_bar {
-    background-color: #910b47;
-    display: flex;
-    align-items: center;
-    opacity: 0.9;
-    color: white;
-    justify-content: space-between;
-    padding: 1.5rem 2rem 1.5rem 1rem;
-    width: 100%;
-  }
-  
-  .search-input {
-    border: 1px solid #910b47;
-  }
-  
-  .header-icon {
-    font-size: 2rem;
-  }
-  
-  .nav_header {
-    text-align: center;
-    font-size: 1.5rem;
-  }
-  
-  .image_wrapper {
-    height: 40vh;
-    background: url('./components/img/virus.png');
-    background-size: cover;
-    position: relative;
-    opacity: 0.9;
-    width: 100%;
-  }
-  
-  .image_container {
-    height: 100%;
-    background:
-      linear-gradient(
-        to right,
-        rgba(209, 10, 69, 0),
-        #c9376f
-      );
-  }
-  
-  .search_item_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem auto;
-    font-size: 1.5rem;
-  }
-  
-  .search_item_container input {
-    padding: 0.3rem;
-    font-size: 1.2rem;
-    border: none;
-    color: blue;
-  }
-  
-  .next {
-    font-size: 2rem;
-    color: white;
-  }
-  
-  .country_name {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  
-  .details_container {
-    height: 100%;
-    margin: 1rem;
-    text-align: center;
-    padding: 1rem;
-    border-radius: 3rem;
-    background-color: #4361ee;
-    opacity: 0.8;
-  }
-  
-  .description_header {
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-  }
-  
-  .description_container {
-    display: flex;
-    flex-direction: column;
-    color: #3a0ca3;
-  }
-  
-  .description {
-    background:
-      linear-gradient(
-        to right,
-        rgba(209, 10, 69, 0),
-        #c9376f
-      );
-    margin: 1rem;
-    font-size: 1.5rem;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  .country_link_container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    opacity: 0.8;
-  }
-  
-  a.country_link {
-    margin: 0;
-    border: 1px solid #c9376f;
-    background-color: #a83d98;
-    font-size: 1.5rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    height: 10rem;
-    text-decoration: none;
-    color: aliceblue;
-  }
-  
-  a.country_link:hover {
-    background-color: #7209b7;
-    border: 3px solid #c9376f;
-    transform: scale(1.03);
-  }
-  
-  .header-detail-left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .next1 {
-    align-self: flex-end;
-    color: white;
-    margin: 0 1rem 0 0;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: lato, sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+  background-image: url('./components/img/africa5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+.nav_bar {
+  background-color: #910b47;
+  display: flex;
+  align-items: center;
+  opacity: 0.9;
+  color: white;
+  justify-content: space-between;
+  padding: 1.5rem 2rem 1.5rem 1rem;
+  width: 100%;
+}
+
+.search-input {
+  border: 1px solid #910b47;
+}
+
+.header-icon {
+  font-size: 2rem;
+}
+
+.nav_header {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.image_wrapper {
+  height: 40vh;
+  background: url('./components/img/virus.png');
+  background-size: cover;
+  position: relative;
+  opacity: 0.9;
+  width: 100%;
+}
+
+.image_container {
+  height: 100%;
+  background:
+    linear-gradient(
+      to right,
+      rgba(209, 10, 69, 0),
+      #c9376f
+    );
+}
+
+.search_item_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  font-size: 1.5rem;
+}
+
+.search_item_container input {
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  border: none;
+  color: blue;
+}
+
+.next {
+  font-size: 2rem;
+  color: white;
+}
+
+.country_name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.details_container {
+  height: 100%;
+  margin: 1rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 3rem;
+  background-color: #4361ee;
+  opacity: 0.8;
+}
+
+.description_header {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.description_container {
+  display: flex;
+  flex-direction: column;
+  color: #3a0ca3;
+}
+
+.description {
+  background:
+    linear-gradient(
+      to right,
+      rgba(209, 10, 69, 0),
+      #c9376f
+    );
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.country_link_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+a.country_link {
+  margin: 0;
+  border: 1px solid #c9376f;
+  background-color: #a83d98;
+  font-size: 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 10rem;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a.country_link:hover {
+  background-color: #7209b7;
+  border: 3px solid #c9376f;
+  transform: scale(1.03);
+}
+
+.header-detail-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.next1 {
+  align-self: flex-end;
+  color: white;
+  margin: 0 1rem 0 0;
+}
